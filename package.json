@@ -1,0 +1,33 @@
+{
+  "name": "torrent-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindudil5han/torrent-api.git"
+  },
+  "keywords": [
+    "torrent"
+  ],
+  "author": "dilshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravindudil5han/torrent-api/issues"
+  },
+  "homepage": "https://github.com/ravindudil5han/torrent-api#readme",
+  "dependencies": {
+    "@dil5han/torrent-api": "^1.1.0",
+    "axios": "^1.3.3",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
